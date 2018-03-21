@@ -1,0 +1,14 @@
+6) O valor de uma variável ou expressão do tipo vetor é o endereço do elemento zero
+do vetor. Seja a[] um vetor qualquer, independente de tipo e tamanho, e pa um
+ponteiro para o mesmo tipo de a[]. Responda V ou F, justificando:
+(v) Após a atribuição pa=&a[0]; pa e a possuem valores identicos, isto é, apontam
+para o mesmo endereço
+(v) A atribuição pa=&a[0]; pode ser escrita como pa=a;
+(f) a[i] pode ser escrito como *(a+i)
+(f) &a[i] e a+i são idênticos
+(f ) a+i e' o endereço do i-ésimo elemento após a
+(v) pa[i] e' idêntico a *(pa+i)
+(v ) pa=a e' uma operação valida
+(v) pa++ e' uma operação valida
+(f) a=pa e' uma operação valida
+(v) a++ e' uma operação valida

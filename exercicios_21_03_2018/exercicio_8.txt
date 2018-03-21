@@ -1,0 +1,8 @@
+8) Quais serão os valores de x, y e p ao final do trecho de código abaixo?
+int x, y, *p;
+y = 0; p = &y;
+x = *p; x = 4;
+(*p)++;
+--x;
+(*p) += x;
+Ao final, temos:x = 3, y = 4, p apontando para y (*p = 4).

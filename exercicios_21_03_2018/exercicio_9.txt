@@ -1,0 +1,33 @@
+Os programas (trechos de código) abaixo possuem erros. Qual(is)? Como deveriam
+ser?
+
+a)
+void main() {
+int x, *p;
+x = 100;
+p = x;
+printf(“Valor de p: %d.\n”, *p);
+}
+//p deveria receber o endereço de x, já que p é um ponteiro (e x não).Ponteiros “armazenam” o endereço para o qual eles apontam! O código corretoseria: p = &x;
+
+b)
+
+void troca (int *i, int *j) {
+int *temp;
+*temp = *i;
+*i = *j;
+*j = *temp;
+}
+
+o erroesta no * temp
+
+c)
+char *a, *b;
+a = "abacate";
+b = "uva”;
+if (a < b)
+printf ("%s vem antes de %s no dicionário", a, b);
+else
+printf ("%s vem depois de %s no dicionário", a, b);
+
+erro no printf

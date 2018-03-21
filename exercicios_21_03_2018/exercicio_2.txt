@@ -1,0 +1,2 @@
+2) O que quer dizer *(p+10);?
+*(p+10) Acessa o valor encontrado 10 posições a frente de p.

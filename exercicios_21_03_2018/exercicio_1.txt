@@ -1,0 +1,8 @@
+1) Explique a diferença entre:
+p++; (*p)++; *(p++);
+
+p++: incrementa o ponteiro.
+(*p)++: Incrementa o conteúdo apontado por p.
+
+*(p++): Incrementa p (como em p++) e acessa o valor encontrado na nova
+posição.
